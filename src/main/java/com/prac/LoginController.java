@@ -7,7 +7,8 @@ public class LoginController {
 
 		System.out.println("welcome to GitHub world !!");
 
-		System.out.println("do practice more to getvnnvnv more knowledge on git ");
+		System.out.println("do practice more to get more knowledge on git ");
+		System.out.println("HELLO");
 
 
 		System.out.println(" then mbmnbmbmdo profile page implementation  ");
