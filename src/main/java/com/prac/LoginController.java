@@ -17,6 +17,5 @@ public class LoginController {
 		System.out.println("follow coding standrads.");
 
 
->>>>>>> branch 'master' of https://github.com/vemulas19/practice-git.git
 	}
 }
