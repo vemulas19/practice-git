@@ -10,13 +10,13 @@ public class LoginController {
 		System.out.println("do practice more to get more knowledge on git ");
 
 
-		System.out.println("no more syso please");
+
+		System.out.println(" then do profile page implementation    ");
+
 		System.out.println(" then do profile page implementation  ");
 
-
 		System.out.println("hello");
-		System.out.println("follow coding standrads.");
-
+		System.out.println("follow coding standrads");
 
 	}
 }
