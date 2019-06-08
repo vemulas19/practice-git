@@ -3,6 +3,6 @@ package com.prac;
 public class InstaController {
 
 	public static void main(String[] args) {
-		System.out.println("hi am instagram!! thank you!!");
+		System.out.println("hi am instagram!! done!!");
 	}
 }
