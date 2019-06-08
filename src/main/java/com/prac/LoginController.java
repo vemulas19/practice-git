@@ -9,6 +9,5 @@ public class LoginController {
 
 
 		System.out.println(" then do profile page implementation ");
-
 	}
 }
