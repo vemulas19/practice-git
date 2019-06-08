@@ -10,6 +10,7 @@ public class LoginController {
 		System.out.println("do practice more to get more knowledge on git ");
 
 
+		System.out.println("no more syso please");
 		System.out.println(" then do profile page implementation  ");
 
 
@@ -17,6 +18,5 @@ public class LoginController {
 		System.out.println("follow coding standrads.");
 
 
->>>>>>> branch 'master' of https://github.com/vemulas19/practice-git.git
 	}
 }
