@@ -14,9 +14,9 @@ public class LoginController {
 
 		System.out.println(" then do profile page implementation    ");
 
-		System.out.println(" then do profile page implementation  ");
-
-		System.out.println("hello ");
+		System.out.println(" then do profile page implementation   ");
+ 
+		System.out.println("hello  ");
 
 		System.out.println("hello");
 		System.out.println("follow coding standrads");
