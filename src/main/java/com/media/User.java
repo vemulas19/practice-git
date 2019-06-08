@@ -1,4 +1,4 @@
-package com.socialmedia;
+package com.media;
 
 public class User {
 
