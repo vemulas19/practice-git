@@ -18,7 +18,7 @@ public class LoginController {
 		System.out.println("hello" );
 		System.out.println("follow coding standrads");
 		System.out.println("hi am github !!" );
-    System.out.println("welcome to github ");
+    System.out.println("welcome to github");
 
 
 	}
