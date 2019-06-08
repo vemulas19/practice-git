@@ -5,7 +5,7 @@ public class TwitterPojo {
 	
 	private String UserName;
 	private String Password;
-	private String Location;
+	private String City;
 	public String getUserName() {
 		return UserName;
 	}
@@ -18,11 +18,11 @@ public class TwitterPojo {
 	public void setPassword(String password) {
 		Password = password;
 	}
-	public String getLocation() {
-		return Location;
+	public String getCity() {
+		return City;
 	}
-	public void setLocation(String location) {
-		Location = location;
+	public void setCity(String city) {
+		City = city;
 	}
 	
 }
