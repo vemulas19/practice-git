@@ -2,9 +2,9 @@ package com.prac;
 
 public class Twitter {
 	
-	public static void main(String[] args) {
+	public void M2() {
 		
-		System.out.println("Twitter Implementation Starts..!!!!");
+		System.out.println("Twitter Implementation Starts...!!!!");
 		
 	}
 
