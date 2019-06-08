@@ -8,14 +8,23 @@ public class LoginController {
 		System.out.println("welcome to GitHub world !!");
 
 		System.out.println("do practice more to get more knowledge on git ");
-		System.out.println("HELLO Users");
+		System.out.println("HELLO Userss");
+
 
 
 		System.out.println(" then mbmnbmbmdo profile page implementation  ");
 
+		System.out.println(" then do profile page implementation    ");
+
+		System.out.println(" then do profile page implementation  ");
+
 
 		System.out.println("hello");
-		System.out.println("follow coding standrads.");
+		System.out.println("follow coding standrads");
+		System.out.println("hi am github !!" );
+
+
+
 
 
 	}
