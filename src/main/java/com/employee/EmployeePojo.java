@@ -7,6 +7,17 @@ public class EmployeePojo {
 	private String empBranch;
 	private String empLocation;
 
+	private String city;
+	
+	
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+
 	private String qualification;
 	public String getQualification() {
 		return qualification;
@@ -16,6 +27,7 @@ public class EmployeePojo {
 	}
 
 	private String passport;
+
 
 	public Integer getId() {
 		return id;
