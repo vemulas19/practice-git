@@ -6,6 +6,7 @@ public class TwitterPojo {
 	private String UserName;
 	private String Password;
 	private String City;
+	private String mobileNo;
 	public String getUserName() {
 		return UserName;
 	}
@@ -23,6 +24,12 @@ public class TwitterPojo {
 	}
 	public void setCity(String city) {
 		City = city;
+	}
+	public String getMobileNo() {
+		return mobileNo;
+	}
+	public void setMobileNo(String mobileNo) {
+		this.mobileNo = mobileNo;
 	}
 	
 }
