@@ -5,11 +5,11 @@ public class TriangleConcept {
 	
 	public static void main(String[] args) {
 		
-		 triangle();
+		 patterns();
 		
 	}
 
-	private static void triangle() {
+	private static void patterns() {
 		
 		int n=5;
 		
