@@ -74,6 +74,10 @@ public class UserController {
 
 		validations val = new validations();
 
+		if(user.getUserId() == 0) {
+			System.out.println("userid should not be zero or null");
+			reuturn "register";
+		}
 		boolean isValidMailId = val.isValidMailId(user.getMailid());
 
 		if (!isValidMailId) {
