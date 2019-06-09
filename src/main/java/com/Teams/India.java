@@ -14,6 +14,8 @@ public class India {
 		}
 	public void indianArmy(){
 		System.out.println("hi am indian army !! jai indian army");
+	System.out.println("cricket is my life");
+	
 	}
 
 
