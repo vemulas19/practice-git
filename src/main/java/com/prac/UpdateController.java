@@ -17,6 +17,13 @@ public class UpdateController {
 		System.out.println("update triggered for  "+sj.getMail());
 		System.out.println(sj.getName());
 		System.out.println(sj.getMob());
+		 boolean valid =Validations.isValid(sj.getMail());
+		if(!valid){
+	System.out.println("please enter valid details");
+	return "register";
+		}
+	
+		
 		
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 		Session session = sessionFactory.openSession();
@@ -31,4 +38,5 @@ public class UpdateController {
 		session.close();
 		return "profile";
 	
+}
 }
