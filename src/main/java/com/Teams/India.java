@@ -9,6 +9,8 @@ public class India {
 		System.out.println("hi am rohit sharma!!");
 		
 		System.out.println("india has won by 7 wickets");
+		
+		System.out.println("hi am dhoni");
 		}
 
 		
