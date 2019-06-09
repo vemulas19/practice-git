@@ -8,6 +8,8 @@ public class TestEmployee {
 	}
 	public static void main(String[] args) {
 		System.out.println("Employee details successfully inserted");
+	System.out.println("hello!!!");
 	}
+	
 }
 
