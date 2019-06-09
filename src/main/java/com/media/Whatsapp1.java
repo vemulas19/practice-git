@@ -8,8 +8,9 @@ public class Whatsapp1 {
 		System.out.println("City is : " + user.getCity());
 		return "success";
 	}
-	
-	public static void main(String[] args) {
-		System.out.println("test main");
+	public int sum(int a,int b) {
+		int c=a+b;
+		System.out.println("sum is"+c);
+		return c;
 	}
 }
