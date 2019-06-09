@@ -6,6 +6,7 @@ public class EmployeePojo {
 	private String empName;
 	private String empBranch;
 	private String empLocation;
+	private String qualification;
 	public Integer getId() {
 		return id;
 	}
