@@ -7,6 +7,12 @@ public class EmployeePojo {
 	private String empBranch;
 	private String empLocation;
 	private String qualification;
+	public String getQualification() {
+		return qualification;
+	}
+	public void setQualification(String qualification) {
+		this.qualification = qualification;
+	}
 	public Integer getId() {
 		return id;
 	}
