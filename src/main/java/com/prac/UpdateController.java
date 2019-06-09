@@ -19,8 +19,10 @@ public class UpdateController {
 		System.out.println(sj.getMob());
 		 boolean valid =Validations.isValid(sj.getMail());
 		if(!valid){
-	System.out.println("please enter valid details");
-	return "register";
+	   System.out.println("please enter valid details");
+	    return "register";
+		}else{
+			return "login";
 		}
 	
 		
