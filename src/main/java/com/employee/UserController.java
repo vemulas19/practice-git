@@ -62,7 +62,7 @@ public class UserController {
 		return "editUser";
 	}
 	@RequestMapping(value="/updateUser")
-	public String updateUserDetails(User user , Model model) {
+	public String updateUserDetails(com.media.User user , Model model) {
 		System.out.println("updateUserDetails method triggered");
 		System.out.println(user.getName());
 		System.out.println(user.getMobile());
@@ -70,6 +70,19 @@ public class UserController {
 		System.out.println(user.getCity());
 		System.out.println(user.getPword());
 		
+		validations val=new validations();
+		//mobileNumber validation
+		boolean isValidMobile=val.isValidMobile(user.getMobile());
+		
+		if(!isValidMobile){
+			model.addAttribute("message", "invalid mobile number entered");
+			return "register";
+		}
+		
+		//name validation
+		if(user.getUserName() == null || user.getUserName().isEmpty()) {
+			return "loginFail";
+		}
 
 		Configuration configuration = new Configuration().configure("hibernate.cfg.xml");
 		SessionFactory sf = configuration.buildSessionFactory();
