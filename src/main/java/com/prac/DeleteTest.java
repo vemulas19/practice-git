@@ -7,7 +7,7 @@ public class DeleteTest {
 		
 		System.out.println("select* from table name where  mailId=:mail ");
 		System.out.println("ok one sysout added");
-		System.out.println("deleted successfully");
+		System.out.println("deletedbdcvds successfully");
 	}
 
 }
