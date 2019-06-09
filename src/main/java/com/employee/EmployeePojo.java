@@ -6,6 +6,15 @@ public class EmployeePojo {
 	private String empName;
 	private String empBranch;
 	private String empLocation;
+	private String city;
+	
+	
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
 	public Integer getId() {
 		return id;
 	}
