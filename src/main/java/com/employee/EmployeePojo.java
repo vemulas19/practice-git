@@ -6,6 +6,22 @@ public class EmployeePojo {
 	private String empName;
 	private String empBranch;
 	private String empLocation;
+	private String empAddress;
+	
+	public EmployeePojo(Integer id, String empName, String empBranch, String empLocation, String empAddress) {
+		super();
+		this.id = id;
+		this.empName = empName;
+		this.empBranch = empBranch;
+		this.empLocation = empLocation;
+		this.empAddress = empAddress;
+	}
+	public String getEmpAddress() {
+		return empAddress;
+	}
+	public void setEmpAddress(String empAddress) {
+		this.empAddress = empAddress;
+	}
 	public Integer getId() {
 		return id;
 	}
