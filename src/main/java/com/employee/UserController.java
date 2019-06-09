@@ -34,7 +34,8 @@ public class UserController {
 
 		session.beginTransaction().commit();
 
-		// Fetching updated user records from database and setting it into model object
+		// Fetching updated user records from database and setting it into model
+		// object
 		Query queryAllUsers = session.createQuery("from User");
 		List<User> userList = queryAllUsers.list();
 		model.addAttribute("uList", userList);
@@ -73,13 +74,16 @@ public class UserController {
 		System.out.println(user.getPword());
 
 		validations val = new validations();
-if(user.getCity()==null){
-	
-	System.out.println("city should not be null");
-	return "register";
-}
-		
-		
+		if (user.getCity() == null) {
+
+			System.out.println("city should not be null");
+			return "register";
+		}
+
+		if (user.getUserId() == 0) {
+			System.out.println("userid should not be zero or null");
+			return "register";
+		}
 		boolean isValidMailId = val.isValidMailId(user.getMailid());
 
 		if (!isValidMailId) {
@@ -111,7 +115,8 @@ if(user.getCity()==null){
 		session.update(user);
 		session.beginTransaction().commit();
 
-		// Fetching updated user records from database and setting it into model object
+		// Fetching updated user records from database and setting it into model
+		// object
 		Query queryAllUsers = session.createQuery("from User");
 		List<User> userList = queryAllUsers.list();
 		model.addAttribute("uList", userList);
