@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.whatsapp.daoImpl.LoginDaoImpl;
 import com.whatsapp.pojo.User;
 
+import validation.validations;
+
 @Controller
 public class UserController {
 
@@ -62,13 +64,26 @@ public class UserController {
 		return "editUser";
 	}
 	@RequestMapping(value="/updateUser")
-	public String updateUserDetails(User user , Model model) {
+	public String updateUserDetails(org.springframework.security.core.userdetails.User user , Model model) {
 		System.out.println("updateUserDetails method triggered");
 		System.out.println(user.getName());
 		System.out.println(user.getMobile());
 		System.out.println(user.getMailid());
 		System.out.println(user.getCity());
 		System.out.println(user.getPword());
+		
+		validations val=new validations();
+		
+		boolean isValidMailId=val.isValidMailId(user.getMailid());
+		
+		if(!isValidMailId){
+			model.addAttribute("message", "invalid mail id  entered");
+			return "register";
+		}
+
+		if(user.getPassword() == null || user.getPassword().isEmpty()) {
+			return "register";
+		}
 		
 
 		Configuration configuration = new Configuration().configure("hibernate.cfg.xml");
