@@ -14,7 +14,7 @@ public class India {
 		
 		System.out.println("india has won by 7 wickets");
 		
-	LinkedHashSet<Integer> list = new LinkedHashSet<Integer>();
+	 LinkedHashSet<Integer> list = new LinkedHashSet<Integer>();
 	list.add(56);
 	list.add(66);
 	list.add(56);
