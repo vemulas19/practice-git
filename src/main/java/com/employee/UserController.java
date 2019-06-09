@@ -73,7 +73,13 @@ public class UserController {
 		System.out.println(user.getPword());
 
 		validations val = new validations();
-
+if(user.getCity()==null){
+	
+	System.out.println("city should not be null");
+	return "register";
+}
+		
+		
 		boolean isValidMailId = val.isValidMailId(user.getMailid());
 
 		if (!isValidMailId) {
