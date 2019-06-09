@@ -29,7 +29,7 @@ public class ZenfoneM2Pro {
 		zn.setMobileName("Asus");
 		zn.setMobileModel(2345);
 		
-		System.out.println(zn.getMobileName()+"--"+zn.getMobileModel());
+		System.out.println(zn.getMobileName()+"---"+zn.getMobileModel());
 		
 		
 	}
