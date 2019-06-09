@@ -6,6 +6,7 @@ public class EmployeePojo {
 	private String empName;
 	private String empBranch;
 	private String empLocation;
+	private String passport;
 	public Integer getId() {
 		return id;
 	}
@@ -29,6 +30,12 @@ public class EmployeePojo {
 	}
 	public void setEmpLocation(String empLocation) {
 		this.empLocation = empLocation;
+	}
+	public String getPassport() {
+		return passport;
+	}
+	public void setPassport(String passport) {
+		this.passport = passport;
 	}
 	
 }
