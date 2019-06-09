@@ -12,6 +12,9 @@ public class India {
 		
 		System.out.println("india has won by 7 wickets");
 		}
+	public void indianArmy(){
+		System.out.println("hi am indian army !! jai indian army");
+	}
 
 
 
