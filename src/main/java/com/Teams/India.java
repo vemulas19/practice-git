@@ -6,12 +6,14 @@ public class India {
 		
 		System.out.println("india team ia the best");
 
+		System.out.println("east or west india is everest");
+
 		System.out.println("hi am rohit sharma!!");
 		
 		System.out.println("india has won by 7 wickets");
 		}
 
-		
+
 
 	}
 
