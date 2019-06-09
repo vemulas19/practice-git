@@ -30,7 +30,7 @@ public class ZenfoneM2Pro {
 			zn.setMobileSerialNumber("4568-7528-4528-1592");
 			zn.setMobileImeiNumber("1200-4520-7895-7538-7528");
 			
-			System.out.println(zn.getMobileSerialNumber()+"-----"+zn.getMobileImeiNumber());
+			System.out.println(zn.getMobileSerialNumber()+"----"+zn.getMobileImeiNumber());
 			
 		}
 	}
