@@ -49,10 +49,11 @@ public class AcerJava {
 		AcerJava aj=new AcerJava();
 		
 		aj.setModelName("AspireE1531");
-		aj.setRamCapacity("6 GB RAM");
+		aj.setRamCapacity("6 GB RAM    ");
 		aj.setLaptopName("ACER");
 		aj.setLaptopRam("4gb");
 		aj.setLaptopVersion("i3");
+		System.out.println("Helo");
 		
 		System.out.println(aj.getModelName()+"--"+aj.getRamCapacity());
 		System.out.println(" computer detials are" +aj.getLaptopName()+ " "+ aj.getLaptopRam()+ " "+aj.laptopVersion);
