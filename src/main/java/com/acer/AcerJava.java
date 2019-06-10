@@ -49,7 +49,7 @@ public class AcerJava {
 		AcerJava aj=new AcerJava();
 		
 		aj.setModelName("AspireE1531");
-		aj.setRamCapacity("6 GB RAM");
+		aj.setRamCapacity("6 GB RAM    ");
 		aj.setLaptopName("ACER");
 		aj.setLaptopRam("4gb");
 		aj.setLaptopVersion("i3");
