@@ -19,4 +19,10 @@ public class Whatsapp1 {
 		System.out.println("sub is : " + c);
 		return c;
 	}
+	
+	public int multiply(int a, int b) {
+		int c = a*b;
+		System.out.println("multiplication is : " + c);
+		return c;
+	}
 }
