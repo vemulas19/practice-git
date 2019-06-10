@@ -13,4 +13,10 @@ public class Whatsapp1 {
 		System.out.println("sum is"+c);
 		return c;
 	}
+	
+	public int sub(int a, int b) {
+		int c = a-b;
+		System.out.println("sub is : " + c);
+		return c;
+	}
 }

@@ -6,6 +6,7 @@ public class TriangleConcept {
 	public static void main(String[] args) {
 		
 		 patterns();
+		 System.out.println("triangle done!!");
 		
 	}
 

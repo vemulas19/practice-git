@@ -9,7 +9,15 @@ public class AcerJava {
 	private String laptopName;
 	private String laptopRam;
 	private String laptopVersion;
+	private String price;
 	
+	
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
 	public String getLaptopName() {
 		return laptopName;
 	}

@@ -8,6 +8,15 @@ public class AcerImpl {
 	private double salary;
 	private String qualification;
 	private String mobile;
+	private String pen;
+
+	public String getPen() {
+		return pen;
+	}
+
+	public void setPen(String pen) {
+		this.pen = pen;
+	}
 
 	public String getMobile() {
 		return mobile;
