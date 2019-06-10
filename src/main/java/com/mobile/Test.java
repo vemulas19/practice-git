@@ -6,12 +6,12 @@ public class Test {
 	}
 	public static void main(String[] args) {
 		System.out.println("welcome to gitHub");
-<<<<<<< HEAD
+
 		System.out.println("start here");
 		
-=======
+
 		System.out.println( "hi mmmmm" );
->>>>>>> stash
+
 	}
 
 }
