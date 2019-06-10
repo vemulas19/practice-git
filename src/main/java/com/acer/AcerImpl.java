@@ -4,6 +4,8 @@ public class AcerImpl {
 
 	private int empId;
 	private String name;
+	private String city;
+	private double salary;
 
 	public int getEmpId() {
 		return empId;
@@ -19,6 +21,22 @@ public class AcerImpl {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
 	}
 
 }
