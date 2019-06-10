@@ -7,7 +7,11 @@ public class MailController {
 		System.out.println("Testing for the mail Implementation......");
 		
 		System.out.println("sathish implemented this controller");
+
+		System.out.println("I am started");
+
 		System.out.println("next");
+
 	}
 
 }
