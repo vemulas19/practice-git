@@ -53,6 +53,7 @@ public class AcerJava {
 		aj.setLaptopName("ACER");
 		aj.setLaptopRam("4gb");
 		aj.setLaptopVersion("i3");
+		System.out.println("Helo");
 		
 		System.out.println(aj.getModelName()+"--"+aj.getRamCapacity());
 		System.out.println(" computer detials are" +aj.getLaptopName()+ " "+ aj.getLaptopRam()+ " "+aj.laptopVersion);
