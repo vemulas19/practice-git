@@ -23,7 +23,6 @@ public class PrimeNumber {
 			System.out.println(num +"is a prime number");
 		else
 			System.out.println(num +"is not aprime number ");
-		System.out.println("prashanth committed");
 	}
 
 }
