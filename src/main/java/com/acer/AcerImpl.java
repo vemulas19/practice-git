@@ -3,7 +3,7 @@ package com.acer;
 public class AcerImpl {
 
 	private int empId;
-	private String name;
+	private String userName;
 	private String city;
 	private double salary;
 	private String qualification;
@@ -33,12 +33,12 @@ public class AcerImpl {
 		this.empId = empId;
 	}
 
-	public String getName() {
-		return name;
+	public String getUserName() {
+		return userName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getCity() {
