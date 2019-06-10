@@ -6,6 +6,24 @@ public class AcerImpl {
 	private String name;
 	private String city;
 	private double salary;
+	private String qualification;
+	private String mobile;
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	public String getQualification() {
+		return qualification;
+	}
+
+	public void setQualification(String qualification) {
+		this.qualification = qualification;
+	}
 
 	public int getEmpId() {
 		return empId;
