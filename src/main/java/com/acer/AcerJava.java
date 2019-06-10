@@ -3,7 +3,6 @@ package com.acer;
 public class AcerJava {
 	
 	
-	
 	private String laptopName;
 	private String laptopRam;
 	private String laptopVersion;
