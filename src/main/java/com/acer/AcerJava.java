@@ -11,6 +11,7 @@ public class AcerJava {
 	private String laptopVersion;
 	
 	public String getLaptopName() {
+		System.out.println("testing");
 		return laptopName;
 	}
 	public void setLaptopName(String laptopName) {
