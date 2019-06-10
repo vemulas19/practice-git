@@ -5,8 +5,12 @@ public class Test {
 		System.out.println("welcome to gitHub");
 
 		System.out.println("hello");
+<<<<<<< HEAD
+		System.out.println("hi");
+=======
 		System.out.println();
 
+>>>>>>> refs/heads/master
 	}
 
 }
