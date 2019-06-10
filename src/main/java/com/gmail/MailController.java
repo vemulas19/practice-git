@@ -13,5 +13,10 @@ public class MailController {
 		System.out.println("next");
 
 	}
+	
+	public void multiply(int a, int b) {
+		System.out.println("Multiplication of two numbers is : ");
+		System.out.println(a*b);
+	}
 
 }
