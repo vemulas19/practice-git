@@ -5,7 +5,21 @@ public class TeamIndia {
 	private String Captain;
 	private String viceCaptain;
 	private String wicketKeeper;
+	private String batsmen;
+	private String bowler;
 	
+	public String getBatsmen() {
+		return batsmen;
+	}
+	public void setBatsmen(String batsmen) {
+		this.batsmen = batsmen;
+	}
+	public String getBowler() {
+		return bowler;
+	}
+	public void setBowler(String bowler) {
+		this.bowler = bowler;
+	}
 	public String getCaptain() {
 		return Captain;
 	}
