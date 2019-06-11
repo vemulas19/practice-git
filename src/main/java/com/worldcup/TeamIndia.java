@@ -49,7 +49,7 @@ public class TeamIndia {
 		
 		TeamIndia india = new TeamIndia();
 		
-		india.setCaptain("Rohith");
+		india.setCaptain("Rohith ");
 		india.setCaptain("Kohli");
 		
 		
