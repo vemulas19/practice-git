@@ -15,9 +15,10 @@ public class Registercontroller {
 		t.setMobileNumber("49863589627");
 		t.setCity("Miyapur");
 		t.setLocation("Medchal");
+		t.setPinCode(500072);
 		
 		System.out.println("stsh check begins");
-		System.out.println(t.getUserName()+"||"+t.getMobileNumber()+"||"+t.getLocation());
+		System.out.println(t.getUserName()+"||"+t.getMobileNumber()+"||"+t.getLocation()+"||"+t.getPinCode());
 		return "Login";
 
 	}
