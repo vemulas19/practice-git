@@ -5,11 +5,9 @@ public class TeamIndia {
 	private String Captain;
 	private String viceCaptain;
 	private String wicketKeeper;
-	private String Keeper;
-	private Integer bowler_Count;
-	
-	
-	
+	private String batsmen;
+	private String bowler;
+
 	
 	
 	public String getKeeper() {
@@ -23,6 +21,20 @@ public class TeamIndia {
 	}
 	public void setBowler_Count(Integer bowler_Count) {
 		this.bowler_Count = bowler_Count;
+	}
+
+	public String getBatsmen() {
+		return batsmen;
+	}
+	public void setBatsmen(String batsmen) {
+		this.batsmen = batsmen;
+	}
+	public String getBowler() {
+		return bowler;
+	}
+	public void setBowler(String bowler) {
+		this.bowler = bowler;
+
 	}
 	public String getCaptain() {
 		return Captain;
