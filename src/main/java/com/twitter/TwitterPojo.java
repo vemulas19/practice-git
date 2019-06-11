@@ -8,6 +8,7 @@ public class TwitterPojo {
 	private String City;
 
 	private String location;
+	private int pinCode;
 	public String getLocation() {
 		return location;
 	}
@@ -40,6 +41,12 @@ public class TwitterPojo {
 	}
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
+	}
+	public int getPinCode() {
+		return pinCode;
+	}
+	public void setPinCode(int pinCode) {
+		this.pinCode = pinCode;
 	}
 	
 }
