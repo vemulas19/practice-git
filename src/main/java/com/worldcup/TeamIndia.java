@@ -7,22 +7,7 @@ public class TeamIndia {
 	private String wicketKeeper;
 	private String batsmen;
 	private String bowler;
-
 	
-	
-	public String getKeeper() {
-		return Keeper;
-	}
-	public void setKeeper(String keeper) {
-		Keeper = keeper;
-	}
-	public Integer getBowler_Count() {
-		return bowler_Count;
-	}
-	public void setBowler_Count(Integer bowler_Count) {
-		this.bowler_Count = bowler_Count;
-	}
-
 	public String getBatsmen() {
 		return batsmen;
 	}
