@@ -6,6 +6,13 @@ public class India {
 		
 		System.out.println("india team ia the best");
 		System.out.println("india has won by 7 wickets");
+		
+		
+		
+		
+		
+		
+		System.out.println("i will do operations in user controller");
 	}
 
 }
