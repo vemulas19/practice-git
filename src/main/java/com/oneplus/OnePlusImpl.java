@@ -4,8 +4,18 @@ import org.apache.log4j.chainsaw.Main;
 
 public class OnePlusImpl {
 	
+
 	private String mobileIMEI;
 	private String mobileCompany;
+	private String mobileModel;
+	
+	public String getMobileModel() {
+		return mobileModel;
+	}
+
+	public void setMobileModel(String mobileModel) {
+		this.mobileModel = mobileModel;
+	}
 	
 	public String getMobileIMEI() {
 		return mobileIMEI;
@@ -25,8 +35,10 @@ public class OnePlusImpl {
 		OnePlusImpl oi = new OnePlusImpl();
 		oi.setMobileCompany("Samsung");
 		oi.setMobileIMEI("123-456-789");
+		oi.setMobileModel("120-124-125");
 		
 		System.out.println(oi.getMobileCompany()+" "+oi.getMobileIMEI());
+		System.out.println(oi.getMobileModel());
 		
 	}
 
